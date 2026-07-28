@@ -1,0 +1,226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ai-engineering-journey//formation//FR
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Formation AI Engineering
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:session-20260729@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260729T070000
+DTEND;TZID=Europe/Paris:20260729T080000
+SUMMARY:🎯 S1.1 — Environnement de travail
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS1.1 — Environnement de travail\n\n- Installer uv (`curl -Ls
+ Sf https://astral.sh/uv/install.sh | sh`)\, puis `uv python install 3.12
+ `.\n- VS Code : extensions Python + Ruff. Créer `~/Desktop/dev/ai-engine
+ ering-journey/phases/phase-1-python/playground/` avec `uv init`.\n- Écri
+ re un premier script `hello.py` : lire son prénom en argument CLI (`sys.
+ argv`)\, afficher un message. Le lancer avec `uv run`.\n- Configurer Exe
+ rcism CLI (`exercism configure`) pour faire les exos en local.\n- ✅ Fini
+  quand : `uv run hello.py Lucas` fonctionne + un exo Exercism soumis dep
+ uis le terminal.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260730@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260730T070000
+DTEND;TZID=Europe/Paris:20260730T080000
+SUMMARY:🎯 S1.2 — Variables\, nombres\, strings
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS1.2 — Variables\, nombres\, strings\n\n- Exercism : *Hello 
+ World*\, *Guido's Gorgeous Lasagna* (basics)\, *Currency Exchange* (numb
+ ers).\n- Dans le playground : porter en Python 5 one-liners que tu écrir
+ ais en JS (template literals → f-strings\, `parseInt` → `int()`\, etc.).
+  Noter les différences dans le journal.\n- ✅ Fini quand : 3 exos verts +
+  fichier `js-vs-python.md` commencé avec ≥5 équivalences.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260731@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260731T070000
+DTEND;TZID=Europe/Paris:20260731T080000
+SUMMARY:🎯 S1.3 — Booléens\, conditions\, boucles
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS1.3 — Booléens\, conditions\, boucles\n\n- Exercism : *Ghos
+ t Gobble Arcade Game* (bools)\, *Meltdown Mitigation* (conditionals)\, *
+ Making the Grade* (loops).\n- Piège à noter : truthiness Python vs JS (`
+ [] == false` n'existe pas ici)\, `elif`\, absence de `++`.\n- ✅ Fini qua
+ nd : 3 exos verts + section "conditions/boucles" ajoutée à `js-vs-python
+ .md`.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revue-20260801@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260801T100000
+DTEND;TZID=Europe/Paris:20260801T120000
+SUMMARY:📊 Revue hebdo + session longue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
+ la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
+  — mini-projet de la semaine ou rattrapage.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260803@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260803T070000
+DTEND;TZID=Europe/Paris:20260803T080000
+SUMMARY:🎯 S1.4 — Strings en profondeur
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS1.4 — Strings en profondeur\n\n- Exercism : *Little Sister'
+ s Vocabulary* (string methods)\, *Inventory Management* si dispo\, sinon
+  exo libre du track.\n- Playground : écrire `slugify.py` (titre → slug U
+ RL) sans regex\, puis avec le module `re`.\n- ✅ Fini quand : exos verts 
+ + `slugify.py` gère accents\, espaces multiples\, ponctuation.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260804@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260804T070000
+DTEND;TZID=Europe/Paris:20260804T080000
+SUMMARY:🎯 S1.5 — Mini-projet de semaine + revue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS1.5 — Mini-projet de semaine + revue\n\n- Écrire `stats_tex
+ te.py` : lit un fichier texte\, affiche nombre de mots\, top 10 des mots
+  fréquents\, longueur moyenne des phrases. Uniquement stdlib.\n- Revue h
+ ebdo (45 min) : relire le journal de la semaine\, cocher la S1 dans ROAD
+ MAP.md\, lire l'objectif de la semaine 2.\n- ✅ Fini quand : le script to
+ urne sur un vrai fichier + commit + entrée de journal de revue.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260805@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260805T070000
+DTEND;TZID=Europe/Paris:20260805T080000
+SUMMARY:🎯 S2.1 — Listes
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS2.1 — Listes\n\n- Exercism : *Card Games* (lists)\, *Chaita
+ na's Colossal Coaster* (list methods).\n- Piège : les listes sont mutabl
+ es par référence (comme JS) mais le slicing copie — jouer avec `a = b[:]
+ ` vs `a = b`.\n- ✅ Fini quand : 2 exos verts + démo slicing dans le play
+ ground (5 exemples commentés).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260806@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260806T070000
+DTEND;TZID=Europe/Paris:20260806T080000
+SUMMARY:🎯 S2.2 — Dictionnaires
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS2.2 — Dictionnaires\n\n- Exercism : *Inventory Management* 
+ (dicts)\, *Mecha Munch Management* (dict methods).\n- Playground : porte
+ r un objet de config TS typique en dict Python \; tester `.get()` avec d
+ éfaut\, `setdefault`\, itération `.items()`.\n- ✅ Fini quand : 2 exos ve
+ rts + comparaison `Map`/objet JS vs dict notée dans `js-vs-python.md`.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260807@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260807T070000
+DTEND;TZID=Europe/Paris:20260807T080000
+SUMMARY:🎯 S2.3 — Tuples & sets
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS2.3 — Tuples & sets\n\n- Exercism : *Tisbury Treasure Hunt*
+  (tuples)\, *Cater Waiter* (sets).\n- Comprendre : tuple = immuable + un
+ packing (`a\, b = b\, a`) \; set = unions/intersections (pense opération
+ s SQL).\n- ✅ Fini quand : 2 exos verts + un exemple concret d'usage de s
+ et (dédoublonnage d'emails).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revue-20260808@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260808T100000
+DTEND;TZID=Europe/Paris:20260808T120000
+SUMMARY:📊 Revue hebdo + session longue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
+ la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
+  — mini-projet de la semaine ou rattrapage.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260810@ai-engineering-journey
+DTSTAMP:20260728T151030Z
+DTSTART;TZID=Europe/Paris:20260810T070000
+DTEND;TZID=Europe/Paris:20260810T080000
+SUMMARY:🎯 S2.4 — Parser un CSV sans lib
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS2.4 — Parser un CSV sans lib\n\n- Playground : `parse_csv.p
+ y` — lire un CSV (généré depuis un export quelconque)\, le parser en lis
+ te de dicts **sans** le module `csv`\, gérer les champs entre guillemets
+ .\n- Puis refaire en 5 lignes avec `csv.DictReader` pour mesurer ce que 
+ la stdlib apporte.\n- ✅ Fini quand : les deux versions donnent le même r
+ ésultat sur un fichier de test.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
