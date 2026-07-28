@@ -13,9 +13,11 @@ argument-hint: [fin]
 3. Afficher un brief de démarrage, court et actionnable :
    - **Où j'en suis** : semaine X, session Y, N sessions faites sur la phase.
    - **Rappel de la veille** : les 2-3 points clés de la dernière entrée de journal (rappel actif).
-   - **Aujourd'hui** : l'objectif, les tâches précises (recopiées de SESSIONS.md avec les liens), le critère "✅ fini quand".
+   - **Mini-cours du jour (le support de cours)** : 10-15 lignes qui expliquent le POURQUOI de la session (repris du bloc "Pourquoi" de SESSIONS.md et de l'intro de semaine) et les concepts clés du jour, avec les analogies JS/TS de Lucas. C'est le cours magistral condensé avant le TP.
+   - **Aujourd'hui** : les blocs 📖 Théorie / 💻 Pratique / ✅ Fini quand / ➕ Si temps restant, recopiés de SESSIONS.md avec les liens.
    - Si la dernière session date de plus de 3 jours : le dire sans culpabiliser et proposer 10 min de révision en plus du programme.
 4. Ne PAS générer le code des exercices. Pendant la session, répondre aux questions, expliquer les concepts, donner des indices — la règle du repo (CLAUDE.md) : Lucas tape lui-même.
+5. **Si Lucas finit en avance** : ne jamais le laisser sans rien — dérouler le bloc ➕ de la session, et s'il est fait, générer un quiz de révision (5-8 questions, réponses attendues à l'oral/par écrit) sur les concepts des 3 dernières sessions, corrigé à la fin.
 
 ## Si l'argument est "fin" → CLÔTURE de session
 
