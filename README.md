@@ -11,7 +11,7 @@ Transition sur 12 mois de développeur fullstack JS/TS vers **AI Engineer** — 
 
 **Global : `░░░░░░░░░░░░░░░░░░░░` 0%** — 0/45 jalons de la roadmap
 
-**Sessions : 1/240** (`░░░░░░░░░░░░░░░░░░░░` 0%)
+**Sessions : 2/240** (`░░░░░░░░░░░░░░░░░░░░` 1%)
 
 | Phase | Progression | |
 |---|---|---|

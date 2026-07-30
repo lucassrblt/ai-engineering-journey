@@ -23,49 +23,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:session-20260731@ai-engineering-journey
-DTSTAMP:20260730T085200Z
+DTSTAMP:20260730T105340Z
 DTSTART;TZID=Europe/Paris:20260731T070000
 DTEND;TZID=Europe/Paris:20260731T080000
-SUMMARY:🎯 S1.2 — Variables\, nombres\, strings
-DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
- /session\n\nS1.2 — Variables\, nombres\, strings\n\n- 📖 Théorie (15 min)
-  : Exercism — concept Basics et concept Numbers. Noter : `/` renvoie tou
- jours un float\, `//` est la division entière (pas de `Math.floor` néces
- saire).\n- 💻 Pratique (40 min) : Exercism *Hello World*\, *Guido's Gorge
- ous Lasagna*\, *Currency Exchange*. Puis dans le playground : porter 5 o
- ne-liners JS en Python (template literals → f-strings\, `parseInt` → `in
- t()`\, `toFixed` → f-string `:.2f`…). Créer `js-vs-python.md` et y noter
-  les équivalences.\n- ✅ Fini quand : 3 exos verts + `js-vs-python.md` co
- mmencé avec ≥5 équivalences.\n- ➕ Si temps restant : les méthodes de str
- ing dans le REPL (`.strip()`\, `.split()`\, `.join()` — attention\, `joi
- n` est inversé par rapport à JS : `"\, ".join(liste)`).
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Session de formation dans 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:revue-20260801@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260801T100000
-DTEND;TZID=Europe/Paris:20260801T120000
-SUMMARY:📊 Revue hebdo + session longue
-DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
- /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
- la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
-  — mini-projet de la semaine ou rattrapage.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Session de formation dans 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:session-20260803@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260803T070000
-DTEND;TZID=Europe/Paris:20260803T080000
 SUMMARY:🎯 S1.3 — Booléens\, conditions\, boucles
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS1.3 — Booléens\, conditions\, boucles\n\n- 📖 Théorie (15 mi
@@ -85,10 +45,26 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20260804@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260804T070000
-DTEND;TZID=Europe/Paris:20260804T080000
+UID:revue-20260801@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260801T100000
+DTEND;TZID=Europe/Paris:20260801T120000
+SUMMARY:📊 Revue hebdo + session longue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
+ la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
+  — mini-projet de la semaine ou rattrapage.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260803@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260803T070000
+DTEND;TZID=Europe/Paris:20260803T080000
 SUMMARY:🎯 S1.4 — Strings en profondeur
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS1.4 — Strings en profondeur\n\n- 📖 Théorie (15 min) : Exerc
@@ -106,10 +82,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20260805@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260805T070000
-DTEND;TZID=Europe/Paris:20260805T080000
+UID:session-20260804@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260804T070000
+DTEND;TZID=Europe/Paris:20260804T080000
 SUMMARY:🎯 S1.5 — Mini-projet de semaine
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS1.5 — Mini-projet de semaine\n\n- 📖 Théorie (10 min) : reli
@@ -127,10 +103,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20260806@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260806T070000
-DTEND;TZID=Europe/Paris:20260806T080000
+UID:session-20260805@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260805T070000
+DTEND;TZID=Europe/Paris:20260805T080000
 SUMMARY:🎯 S2.1 — Listes
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.1 — Listes\n\n- 📖 Théorie (15 min) : Exercism — Lists + L
@@ -147,10 +123,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20260807@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260807T070000
-DTEND;TZID=Europe/Paris:20260807T080000
+UID:session-20260806@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260806T070000
+DTEND;TZID=Europe/Paris:20260806T080000
 SUMMARY:🎯 S2.2 — Dictionnaires
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.2 — Dictionnaires\n\n- 📖 Théorie (15 min) : Exercism — Di
@@ -169,26 +145,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:revue-20260808@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260808T100000
-DTEND;TZID=Europe/Paris:20260808T120000
-SUMMARY:📊 Revue hebdo + session longue
-DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
- /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
- la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
-  — mini-projet de la semaine ou rattrapage.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Session de formation dans 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:session-20260810@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260810T070000
-DTEND;TZID=Europe/Paris:20260810T080000
+UID:session-20260807@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260807T070000
+DTEND;TZID=Europe/Paris:20260807T080000
 SUMMARY:🎯 S2.3 — Tuples & sets
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.3 — Tuples & sets\n\n- 📖 Théorie (15 min) : Exercism — Tu
@@ -207,10 +167,26 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20260811@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260811T070000
-DTEND;TZID=Europe/Paris:20260811T080000
+UID:revue-20260808@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260808T100000
+DTEND;TZID=Europe/Paris:20260808T120000
+SUMMARY:📊 Revue hebdo + session longue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
+ la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
+  — mini-projet de la semaine ou rattrapage.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260810@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260810T070000
+DTEND;TZID=Europe/Paris:20260810T080000
 SUMMARY:🎯 S2.4 — Parser un CSV sans lib
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.4 — Parser un CSV sans lib\n\n- 📖 Théorie (10 min) : surv
@@ -228,10 +204,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20260812@ai-engineering-journey
-DTSTAMP:20260730T085200Z
-DTSTART;TZID=Europe/Paris:20260812T070000
-DTEND;TZID=Europe/Paris:20260812T080000
+UID:session-20260811@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260811T070000
+DTEND;TZID=Europe/Paris:20260811T080000
 SUMMARY:🎯 S2.5 — Mini-projet de semaine
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.5 — Mini-projet de semaine\n\n- 📖 Théorie (10 min) : reli
@@ -241,6 +217,27 @@ DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper
   sommer\, trier\, afficher un tableau aligné (f-strings avec padding `:>
  10`).\n- ✅ Fini quand : sortie correcte vérifiée à la main + commit.\n- 
  ➕ Si temps restant : ajouter un argument CLI `--mois` qui filtre.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260812@ai-engineering-journey
+DTSTAMP:20260730T105340Z
+DTSTART;TZID=Europe/Paris:20260812T070000
+DTEND;TZID=Europe/Paris:20260812T080000
+SUMMARY:🎯 S3.1 — List/dict comprehensions
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS3.1 — List/dict comprehensions\n\n- 📖 Théorie (15 min) : Ex
+ ercism — List comprehensions. Règle de lisibilité : une comprehension qu
+ i ne tient pas en une ligne lisible doit redevenir une boucle.\n- 💻 Prat
+ ique (40 min) : exos du concept sur Exercism. Puis réécrire 5 boucles de
+ s semaines 1-2 en comprehensions (garder l'avant/après en commentaire).\
+ n- ✅ Fini quand : exos verts + les 5 réécritures commitées.\n- ➕ Si temp
+ s restant : dict et set comprehensions (`{k: v for ...}`)\, comprehensio
+ n avec condition double.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Session de formation dans 10 minutes
