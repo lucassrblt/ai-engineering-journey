@@ -22,34 +22,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:session-20260730@ai-engineering-journey
-DTSTAMP:20260730T052354Z
-DTSTART;TZID=Europe/Paris:20260730T070000
-DTEND;TZID=Europe/Paris:20260730T080000
-SUMMARY:🎯 S1.1 — Environnement de travail
-DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
- /session\n\nS1.1 — Environnement de travail\n\n- 📖 Théorie (15 min) : li
- re l'intro d'uv (sections *Installation* et *Features*). Demander à Clau
- de : "explique-moi le rapport entre uv\, pip\, venv et pyproject.toml\, 
- en comparant à npm/pnpm/package.json".\n- 💻 Pratique (40 min) : installe
- r uv (`curl -LsSf https://astral.sh/uv/install.sh | sh`) puis `uv python
-  install 3.12`. VS Code : extensions Python + Ruff. Créer `phases/phase-
- 1-python/playground/` avec `uv init`. Écrire `hello.py` : lire un prénom
-  en argument CLI (`sys.argv`) et afficher un message \; lancer avec `uv 
- run hello.py Lucas`. Configurer Exercism CLI (`exercism configure`).\n- 
- ✅ Fini quand : `uv run hello.py Lucas` fonctionne + un exo Exercism soum
- is depuis le terminal.\n- ➕ Si temps restant : explorer le REPL (`uv run
-  python`) 10 min — c'est l'outil d'expérimentation n°1 en Python\, il n'
- y a pas d'équivalent aussi central en JS.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Session de formation dans 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:session-20260731@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260731T070000
 DTEND;TZID=Europe/Paris:20260731T080000
 SUMMARY:🎯 S1.2 — Variables\, nombres\, strings
@@ -73,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:revue-20260801@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260801T100000
 DTEND;TZID=Europe/Paris:20260801T120000
 SUMMARY:📊 Revue hebdo + session longue
@@ -89,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260803@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260803T070000
 DTEND;TZID=Europe/Paris:20260803T080000
 SUMMARY:🎯 S1.3 — Booléens\, conditions\, boucles
@@ -112,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260804@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260804T070000
 DTEND;TZID=Europe/Paris:20260804T080000
 SUMMARY:🎯 S1.4 — Strings en profondeur
@@ -133,7 +107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260805@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260805T070000
 DTEND;TZID=Europe/Paris:20260805T080000
 SUMMARY:🎯 S1.5 — Mini-projet de semaine
@@ -154,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260806@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260806T070000
 DTEND;TZID=Europe/Paris:20260806T080000
 SUMMARY:🎯 S2.1 — Listes
@@ -174,7 +148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260807@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260807T070000
 DTEND;TZID=Europe/Paris:20260807T080000
 SUMMARY:🎯 S2.2 — Dictionnaires
@@ -196,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:revue-20260808@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260808T100000
 DTEND;TZID=Europe/Paris:20260808T120000
 SUMMARY:📊 Revue hebdo + session longue
@@ -212,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260810@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260810T070000
 DTEND;TZID=Europe/Paris:20260810T080000
 SUMMARY:🎯 S2.3 — Tuples & sets
@@ -234,7 +208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260811@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260811T070000
 DTEND;TZID=Europe/Paris:20260811T080000
 SUMMARY:🎯 S2.4 — Parser un CSV sans lib
@@ -255,7 +229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260812@ai-engineering-journey
-DTSTAMP:20260730T052354Z
+DTSTAMP:20260730T085200Z
 DTSTART;TZID=Europe/Paris:20260812T070000
 DTEND;TZID=Europe/Paris:20260812T080000
 SUMMARY:🎯 S2.5 — Mini-projet de semaine

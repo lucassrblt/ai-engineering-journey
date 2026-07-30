@@ -14,4 +14,4 @@
 
 -
 
-**Temps réel passé** : 1h30 / autre
+**Temps réel passé** : 1h00 / autre
