@@ -30,12 +30,13 @@ argument-hint: [fin]
 5. Mettre à jour automatiquement (sans demander) :
    - `python3 scripts/update_progress.py` — tableau de bord du README ;
    - `python3 scripts/update_calendar.py` — régénère le calendrier avec les prochaines sessions.
-6. Commit + push automatiques (sans demander) : `git add -A && git commit -m "journal: SX.Y - <résumé court>" && git push` (ne pas push si aucun remote configuré). Inclure le travail de la session s'il est dans ce repo.
+6. Avant tout push : vérifier le compte GitHub actif avec `gh auth status` — le compte doit être `lucassrblt` (compte actif = "Active account: true"). Si un autre compte est actif, basculer avec `gh auth switch --user lucassrblt` avant de pousser.
+7. Commit + push automatiques (sans demander) : `git add -A && git commit -m "journal: SX.Y - <résumé court>" && git push` (ne pas push si aucun remote configuré). Inclure le travail de la session s'il est dans ce repo.
 
 ## Si l'argument est "revue" → REVUE HEBDOMADAIRE (45 min)
 
 1. Lire toutes les entrées de journal de la semaine.
 2. Bilan : sessions faites/prévues, vitesse réelle vs plan, blocages récurrents, points de fierté.
 3. Cocher la semaine dans ROADMAP.md si complète ; sinon, proposer le report (les semaines tampons servent à ça).
-4. Mettre à jour automatiquement : `python3 scripts/update_progress.py` et `python3 scripts/update_calendar.py`, puis commit + push.
+4. Mettre à jour automatiquement : `python3 scripts/update_progress.py` et `python3 scripts/update_calendar.py`, puis commit + push (vérifier avant le push que le compte GitHub actif est `lucassrblt` via `gh auth status`, `gh auth switch --user lucassrblt` sinon).
 5. Afficher l'objectif de la semaine suivante et vérifier que les prérequis sont prêts (comptes, installs).
