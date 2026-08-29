@@ -23,7 +23,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:revue-20260829@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260829T100000
 DTEND;TZID=Europe/Paris:20260829T120000
 SUMMARY:📊 Revue hebdo + session longue
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260831@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260831T070000
 DTEND;TZID=Europe/Paris:20260831T080000
 SUMMARY:🎯 S1.3 — Booléens\, conditions\, boucles
@@ -62,7 +62,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260901@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260901T070000
 DTEND;TZID=Europe/Paris:20260901T080000
 SUMMARY:🎯 S1.4 — Strings en profondeur
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260902@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260902T070000
 DTEND;TZID=Europe/Paris:20260902T080000
 SUMMARY:🎯 S1.5 — Mini-projet de semaine
@@ -104,7 +104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260903@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260903T070000
 DTEND;TZID=Europe/Paris:20260903T080000
 SUMMARY:🎯 S2.1 — Listes
@@ -124,7 +124,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260904@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260904T070000
 DTEND;TZID=Europe/Paris:20260904T080000
 SUMMARY:🎯 S2.2 — Dictionnaires
@@ -146,7 +146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:revue-20260905@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260905T100000
 DTEND;TZID=Europe/Paris:20260905T120000
 SUMMARY:📊 Revue hebdo + session longue
@@ -162,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260907@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260907T070000
 DTEND;TZID=Europe/Paris:20260907T080000
 SUMMARY:🎯 S2.3 — Tuples & sets
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260908@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260908T070000
 DTEND;TZID=Europe/Paris:20260908T080000
 SUMMARY:🎯 S2.4 — Parser un CSV sans lib
@@ -205,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260909@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260909T070000
 DTEND;TZID=Europe/Paris:20260909T080000
 SUMMARY:🎯 S2.5 — Mini-projet de semaine
@@ -225,7 +225,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-20260910@ai-engineering-journey
-DTSTAMP:20260828T143111Z
+DTSTAMP:20260829T091744Z
 DTSTART;TZID=Europe/Paris:20260910T070000
 DTEND;TZID=Europe/Paris:20260910T080000
 SUMMARY:🎯 S3.1 — List/dict comprehensions
@@ -238,6 +238,27 @@ DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper
  n- ✅ Fini quand : exos verts + les 5 réécritures commitées.\n- ➕ Si temp
  s restant : dict et set comprehensions (`{k: v for ...}`)\, comprehensio
  n avec condition double.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20260911@ai-engineering-journey
+DTSTAMP:20260829T091744Z
+DTSTART;TZID=Europe/Paris:20260911T070000
+DTEND;TZID=Europe/Paris:20260911T080000
+SUMMARY:🎯 S3.2 — Générateurs & lazy evaluation
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\nS3.2 — Générateurs & lazy evaluation\n\n- 📖 Théorie (15 min)
+  : Exercism — Generators. Demander à Claude : "explique yield à quelqu'u
+ n qui connaît les async iterators JS".\n- 💻 Pratique (40 min) : générer 
+ un fichier de ~100 Mo par script\, puis comparer lecture complète vs gén
+ érateur (mesurer la RAM avec `resource.getrusage`). Écrire un générateur
+  `lire_par_blocs(path\, n)`.\n- ✅ Fini quand : tu sais expliquer par écr
+ it dans le journal quand `yield` vs liste.\n- ➕ Si temps restant : les g
+ enerator expressions (`sum(x**2 for x in ...)`) et `itertools.islice`.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Session de formation dans 10 minutes
