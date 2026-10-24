@@ -22,10 +22,26 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:session-20261023@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261023T070000
-DTEND;TZID=Europe/Paris:20261023T080000
+UID:revue-20261024@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261024T100000
+DTEND;TZID=Europe/Paris:20261024T120000
+SUMMARY:📊 Revue hebdo + session longue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
+ la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
+  — mini-projet de la semaine ou rattrapage.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20261026@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261026T070000
+DTEND;TZID=Europe/Paris:20261026T080000
 SUMMARY:🎯 S1.3 — Booléens\, conditions\, boucles
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS1.3 — Booléens\, conditions\, boucles\n\n- 📖 Théorie (15 mi
@@ -45,26 +61,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:revue-20261024@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261024T100000
-DTEND;TZID=Europe/Paris:20261024T120000
-SUMMARY:📊 Revue hebdo + session longue
-DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
- /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
- la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
-  — mini-projet de la semaine ou rattrapage.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Session de formation dans 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:session-20261026@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261026T070000
-DTEND;TZID=Europe/Paris:20261026T080000
+UID:session-20261027@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261027T070000
+DTEND;TZID=Europe/Paris:20261027T080000
 SUMMARY:🎯 S1.4 — Strings en profondeur
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS1.4 — Strings en profondeur\n\n- 📖 Théorie (15 min) : Exerc
@@ -82,10 +82,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261027@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261027T070000
-DTEND;TZID=Europe/Paris:20261027T080000
+UID:session-20261028@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261028T070000
+DTEND;TZID=Europe/Paris:20261028T080000
 SUMMARY:🎯 S1.5 — Mini-projet de semaine
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS1.5 — Mini-projet de semaine\n\n- 📖 Théorie (10 min) : reli
@@ -103,10 +103,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261028@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261028T070000
-DTEND;TZID=Europe/Paris:20261028T080000
+UID:session-20261029@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261029T070000
+DTEND;TZID=Europe/Paris:20261029T080000
 SUMMARY:🎯 S2.1 — Listes
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.1 — Listes\n\n- 📖 Théorie (15 min) : Exercism — Lists + L
@@ -123,10 +123,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261029@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261029T070000
-DTEND;TZID=Europe/Paris:20261029T080000
+UID:session-20261030@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261030T070000
+DTEND;TZID=Europe/Paris:20261030T080000
 SUMMARY:🎯 S2.2 — Dictionnaires
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.2 — Dictionnaires\n\n- 📖 Théorie (15 min) : Exercism — Di
@@ -145,10 +145,26 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261030@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261030T070000
-DTEND;TZID=Europe/Paris:20261030T080000
+UID:revue-20261031@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261031T100000
+DTEND;TZID=Europe/Paris:20261031T120000
+SUMMARY:📊 Revue hebdo + session longue
+DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
+ /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
+ la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
+  — mini-projet de la semaine ou rattrapage.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Session de formation dans 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-20261102@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261102T070000
+DTEND;TZID=Europe/Paris:20261102T080000
 SUMMARY:🎯 S2.3 — Tuples & sets
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.3 — Tuples & sets\n\n- 📖 Théorie (15 min) : Exercism — Tu
@@ -167,26 +183,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:revue-20261031@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261031T100000
-DTEND;TZID=Europe/Paris:20261031T120000
-SUMMARY:📊 Revue hebdo + session longue
-DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
- /session\n\n10h00-10h45 : /session revue — bilan de la semaine\, cocher 
- la roadmap\, préparer la semaine suivante.\n10h45-12h00 : session longue
-  — mini-projet de la semaine ou rattrapage.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Session de formation dans 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:session-20261102@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261102T070000
-DTEND;TZID=Europe/Paris:20261102T080000
+UID:session-20261103@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261103T070000
+DTEND;TZID=Europe/Paris:20261103T080000
 SUMMARY:🎯 S2.4 — Parser un CSV sans lib
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.4 — Parser un CSV sans lib\n\n- 📖 Théorie (10 min) : surv
@@ -204,10 +204,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261103@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261103T070000
-DTEND;TZID=Europe/Paris:20261103T080000
+UID:session-20261104@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261104T070000
+DTEND;TZID=Europe/Paris:20261104T080000
 SUMMARY:🎯 S2.5 — Mini-projet de semaine
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS2.5 — Mini-projet de semaine\n\n- 📖 Théorie (10 min) : reli
@@ -224,10 +224,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261104@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261104T070000
-DTEND;TZID=Europe/Paris:20261104T080000
+UID:session-20261105@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261105T070000
+DTEND;TZID=Europe/Paris:20261105T080000
 SUMMARY:🎯 S3.1 — List/dict comprehensions
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS3.1 — List/dict comprehensions\n\n- 📖 Théorie (15 min) : Ex
@@ -245,10 +245,10 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-20261105@ai-engineering-journey
-DTSTAMP:20261023T075033Z
-DTSTART;TZID=Europe/Paris:20261105T070000
-DTEND;TZID=Europe/Paris:20261105T080000
+UID:session-20261106@ai-engineering-journey
+DTSTAMP:20261024T073200Z
+DTSTART;TZID=Europe/Paris:20261106T070000
+DTEND;TZID=Europe/Paris:20261106T080000
 SUMMARY:🎯 S3.2 — Générateurs & lazy evaluation
 DESCRIPTION:cd ~/Desktop/dev/ai-engineering-journey && claude puis taper 
  /session\n\nS3.2 — Générateurs & lazy evaluation\n\n- 📖 Théorie (15 min)
